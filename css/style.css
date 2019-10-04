@@ -17,6 +17,47 @@ a:hover {
 
 /*custom classes*/
 
+.global-heading {
+	font-size: 8.125em;
+	display: inline-block;
+  	background: linear-gradient(to right, #FFC500 20%, #75ff75 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: ease-in-out .5s;
+}
+
+.global-subheading {
+	font-size: 1.875em;
+	transition: ease-in-out .5s;
+}
+
+.global-hr {
+	width: 30px;
+	border: 2px solid #444;
+	margin-top: 2.188em;
+	transition: ease-in-out .5s;
+}
+
+.global-anchor {
+	color: #000;
+	text-transform: uppercase;
+	display: inline-block;
+	background-color: #fff;
+	padding: 8px 25px;
+	border: 3px solid #fff;
+	border-radius: 50px;
+	font-size: 0.7em;
+	font-weight: bold;
+	letter-spacing: 3px;
+	margin-top: 2.188em;
+	transition: ease-in-out .5s;
+}
+
+.global-anchor:hover {
+	background-color: #000;
+	color: #fff;
+}
+
 .height-100vh {
 	height: 100vh;
 }
@@ -72,6 +113,18 @@ a:hover {
 	color: #8d8d8d;
 	opacity: 1;
 	font-size: 0.8em;
+}
+
+.mt-200 {
+	margin-top: 200px;
+}
+
+.mt-lg-155 {
+	margin-top: 155px;
+}
+
+.mt-105 {
+	margin-top: 105px;
 }
 
 /* bootstrap */
@@ -132,10 +185,6 @@ a:hover {
 	right: 0;
 	bottom: 0;
 	left: 0;
-}
-
-.carousel-top__item h1 {
-	font-size: 8.125em;
 }
 
 .carousel-top__item p {
@@ -371,49 +420,12 @@ a:hover {
 	width: 60%;
 }
 
-.intro__wrapper > h1 {
-	font-size: 8.125em;
-	transition: ease-in-out .5s;
-}
-
-.intro__wrapper > h6 {
-	font-size: 1.875em;
-	transition: ease-in-out .5s;
-}
-
 .intro__wrapper > p {
 	width: 75%;
 	color: #c0bfbf;
 	margin-top: 2.188em;
 	transition: ease-in-out .5s;
 
-}
-
-.intro__wrapper > hr {
-	width: 30px;
-	border: 2px solid #444;
-	margin-top: 2.188em;
-	transition: ease-in-out .5s;
-}
-
-.intro__wrapper > a {
-	color: #000;
-	text-transform: uppercase;
-	display: inline-block;
-	background-color: #fff;
-	padding: 1.1em 2.8em;
-	border: 3px solid #fff;
-	border-radius: 50px;
-	font-size: 0.7em;
-	font-weight: bold;
-	letter-spacing: 3px;
-	margin-top: 2.188em;
-	transition: ease-in-out .5s;
-}
-
-.intro__wrapper > a:hover {
-	background-color: #000;
-	color: #fff;
 }
 
 /* gallery */
@@ -428,23 +440,6 @@ a:hover {
 	width: 100%;
 	object-fit: cover;
 	transition: 1s;
-	
-	
-}
-
-.gallery {
-	transition: all 1s;
-	width: 100%;
-}
-
-.card-columns {
-	width: 100%;
-	transition: all , linear , 1s;
-}
-
-.card {
-	transition: all 1s;
-	width: 100%;
 }
 
 .card-img-overlay {
@@ -459,8 +454,7 @@ a:hover {
 
 .card:hover .card-img-overlay {
 	opacity: 1;
-	background: rgba(0,0,0,0.7);
-	
+	background: rgba(0,0,0,0.7);	
 }
 
 .gallery__link-icon {
@@ -482,6 +476,31 @@ a:hover {
     line-height: 1;
 }
 
+.services .services__wrapper i {
+	color: #ffc500;
+	font-size: 32px;
+}
+
+.services .services__wrapper p {
+	font-size: 30px;
+	font-weight: 100;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.services .services__wrapper a {
+	color: #6f6f6f;
+	text-decoration: underline;
+	margin-top: 20px;
+	display: inline-block;
+	transition: .5s;
+}
+
+.services .services__wrapper a:hover {
+	color: #ffc500;
+	text-decoration: none;
+}
+
 @media (max-width: 575px) {
 	.header__menu__wrapper__nav li  {
 			display: none;
@@ -493,17 +512,13 @@ a:hover {
 	}
 
 	
-	.carousel-top__item h1 {
+	.global-heading {
 		font-size: 3.438em;
 	}
 
-	.intro__wrapper > h6 {
+	.global-subheading {
 		font-size: 1.125em;
 		
-	}
-
-	.intro__wrapper > h1 {
-		font-size: 3.438em;
 	}
 
 	.card-columns {
@@ -518,6 +533,22 @@ a:hover {
 
 	.gallery__link-icon {
 		font-size: 50px;
+	}
+
+	.mb-105 {
+		margin-bottom: 105px;
+	}
+
+	.services p {
+		font-size: 18px;
+	}
+
+	.services .services__wrapper p {
+		font-size: 18px;
+	}
+
+	.mt-75 {
+		margin-top: 75px;
 	}
 }
 
@@ -537,16 +568,12 @@ a:hover {
 		margin-left: auto;
 	}
 
-	.carousel-top__item h1 {
+	.global-heading {
 		font-size: 3.438em;
 	}
 
-	.intro__wrapper > h6 {
+	.global-subheading {
 		font-size: 1.688em;
-	}
-
-	.intro__wrapper > h1 {
-		font-size: 3.438em;
 	}
 
 	.gallery__subtitle {
@@ -556,20 +583,20 @@ a:hover {
 	.gallery__link-icon {
 		font-size:50px;
 	}
+
+	.mb-105 {
+		margin-bottom: 105px;
+	}
 }
 
 @media (min-width: 768px) {
-	.carousel-top__item h1 {
+	.global-heading {
 		font-size: 8.125em;;
 	}
 
-	.intro__wrapper > h6 {
+	.global-subheading {
 		font-size: 1.875em;
 		
-	}
-
-	.intro__wrapper > h1 {
-		font-size: 8.125em;
 	}
 	
 	.gallery__subtitle {
@@ -594,6 +621,14 @@ a:hover {
 
     .header__menu__wrapper__nav__search-icon  {
 			margin-left: 15px;
+	}
+
+	.font-size-lg-90 {
+		font-size: 90px;
+	}
+
+	.mt-lg-105 {
+		margin-top: 105px;
 	}	
 }
 
