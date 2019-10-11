@@ -35,6 +35,10 @@ a:hover {
 	font-size: 45px;
 }
 
+.font-size-35 {
+	font-size: 35px;
+}
+
 .font-weight-200 {
 	font-weight: 200;
 }
@@ -95,8 +99,20 @@ a:hover {
 	background-color: #75ff75;;
 }
 
+.bg-black {
+	background-color: #000;
+}
+
+.text-yellow {
+	color:  #FFC500;
+}
+
+.text-muted-light {
+	color: #A1A0A0;
+}
+
 .fb-text-blue {
-	color: #032bb0;
+	color: #c0bfbf;
 }
 
 .instagram-text-red {
@@ -119,6 +135,10 @@ a:hover {
 	color: #8d8d8d;
 	opacity: 1;
 	font-size: 0.8em;
+}
+
+.border-muted {
+	border: 1px solid #232323;
 }
 
 /*.my-35 {
@@ -165,12 +185,20 @@ a:hover {
 	margin-top: 80px;
 }
 
+.mt-30 {
+	margin-top: 30px;
+}
+
 .mt-15 {
 	margin-top: 15px;
 }
 
 .my-15 {
 	margin: 15px 0;
+}
+
+.mx-15 {
+	margin: 0 15px;
 }
 
 .p-sm-100 {
@@ -183,7 +211,15 @@ a:hover {
 
 .bg-skills {
 	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url(../img/bg/bg-skills.jpg) no-repeat center / cover;
+}
 
+.bg-subscribe {
+	background: url(../img/bg/bg-subscribe.jpg) no-repeat center / cover;
+
+}
+
+.bg-prices {
+	background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9)),url(../img/bg/bg-prices.jpg) no-repeat top center / cover;
 
 }
 
@@ -624,6 +660,25 @@ a:hover {
 		font-size: 25px;
 	}
 
+	.font-size-33 {
+		font-size: 33px;
+	}
+
+	.my-100 {
+		margin: 100px 0;
+	}
+
+	.py-100 {
+		padding: 100px 0;
+	}
+
+	.font-size-25 {
+		font-size: 25px;
+	}
+
+	.mt-100 {
+		margin-top: 100px;
+	}
 }
 
 @media (min-width: 576px) /*sm*/ {
@@ -678,6 +733,22 @@ a:hover {
 	.font-weight-300 {
 		font-weight: 300;
 	}
+
+	.font-size-sm-45 {
+		font-size: 45px;
+	}
+
+	.my-100 {
+		margin: 100px 0;
+	}
+
+	.py-100 {
+		padding: 100px 0;
+	}
+
+	.mt-100 {
+		margin-top: 100px;
+	}
 }
 
 @media (min-width: 768px) /*md*/ {
@@ -698,11 +769,29 @@ a:hover {
 		font-size: 55px;
 	}
 
-	font-weight-md-200
+	.font-weight-md-200 {
+		font-weight: 200;
+	}
 
 	.section-download__block {
 		padding: 100px 0;
 		margin: 100px 0;
+	}
+
+	.font-size-md-60  {
+		font-size: 60px;
+	}
+
+	.my-100 {
+		margin: 100px 0;
+	}
+
+	.py-100 {
+		padding: 100px 0;
+	}
+
+	.font-size-md-75 {
+		font-size: 75px;
 	}
 }
 
@@ -736,6 +825,22 @@ a:hover {
 	.section-download__block {
 		padding: 150px 0;
 		margin: 150px 0;
+	}
+
+	.font-weight-lg-200 {
+		font-weight: 200;
+	}
+
+	.my-lg-150 {
+		margin: 150px 0;
+	}
+
+	.py-lg-150 {
+		padding: 150px 0;
+	}
+
+	.mt-lg-160 {
+		margin-top: 160px;
 	}
 }
 
