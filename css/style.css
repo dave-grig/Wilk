@@ -39,6 +39,14 @@ a:hover {
 	font-size: 35px;
 }
 
+.font-size-20 {
+	font-size: 20px;
+}
+
+.font-size-14 {
+	font-size: 14px;
+}
+
 .font-size-11 {
 	font-size: 11px;
 }
@@ -119,6 +127,10 @@ a:hover {
 	color: #A1A0A0;
 }
 
+.text-black {
+	color: #000;
+}
+
 .fb-text-blue {
 	color: #c0bfbf;
 }
@@ -167,6 +179,10 @@ a:hover {
 
 .w-70 {
 	width: 70%;
+}
+
+.w-80 {
+	width: 80%;
 }
 
 .w-87 {
@@ -221,6 +237,14 @@ px-15 {
 	padding: 0 15px;
 }
 
+.py-75 {
+	padding: 75px 0;
+}
+
+.py-lg-175 {
+	padding: 175px 0;
+}
+
 .pt-155 {
 	padding-top: 155px;
 }
@@ -260,7 +284,10 @@ px-15 {
 
 .bg-prices {
 	background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9)),url(../img/bg/bg-prices.jpg) no-repeat top center / cover;
+}
 
+.bg-reviews {
+	background: linear-gradient(rgba(0,0,0,.84), rgba(0,0,0,.84)), url(../img/bg/bg-reviews.jpg) no-repeat center / cover;
 }
 
 .cursor-pointer {
@@ -627,6 +654,16 @@ px-15 {
 	width: 20px;
 	margin-right: 20px;
 }
+
+.carousel-section-reviews__item img, .carousel-section-reviews__item__icon-wrapper {
+	width: 50px;
+	max-width: 50px;
+	height: 50px;
+	border-radius: 100%;
+}
+
+
+
 
 @media (max-width: 575px) /*xs*/ {
 	.header-main__navbar-nav li {
