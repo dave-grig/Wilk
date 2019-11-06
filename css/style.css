@@ -47,6 +47,10 @@ a:hover {
 	font-size: 14px;
 }
 
+.font-size-13 {
+	font-size: 13px;
+}
+
 .font-size-11 {
 	font-size: 11px;
 }
@@ -119,6 +123,10 @@ a:hover {
 	background-color: #000;
 }
 
+.bg-muted-dark {
+	background-color: #232323;
+}
+
 .text-yellow {
 	color:  #FFC500;
 }
@@ -132,7 +140,7 @@ a:hover {
 }
 
 .fb-text-blue {
-	color: #c0bfbf;
+	color: #3b5998;
 }
 
 .instagram-text-red {
@@ -141,6 +149,14 @@ a:hover {
 
 .twitter-text-light-blue {
 	color: #1da1f2;
+}
+
+.behance-text-dark-blue {
+	color: #053eff;
+}
+
+.dribble-text-light-red {
+	color: #ea4c89;
 }
 
 .text-grey {
@@ -221,6 +237,10 @@ a:hover {
 	margin-top: 75px;
 }
 
+.mt-40 {
+	margin-top: 40px;
+}
+
 .mt-30 {
 	margin-top: 30px;
 }
@@ -245,8 +265,20 @@ px-15 {
 	padding: 0 15px;
 }
 
+.py-30 {
+	padding: 40px 0;
+}
+
 .py-75 {
 	padding: 75px 0;
+}
+
+.py-150 {
+	padding: 150px 0;
+}
+
+.pt-140 {
+	padding-top: 140px;
 }
 
 .py-lg-175 {
@@ -296,6 +328,10 @@ px-15 {
 
 .bg-reviews {
 	background: linear-gradient(rgba(0,0,0,.84), rgba(0,0,0,.84)), url(../img/bg/bg-reviews.jpg) no-repeat center / cover;
+}
+
+.bg-contact {
+	background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9)), url(../img/bg/bg-contact.jpg) no-repeat center / cover;
 }
 
 .cursor-pointer {
@@ -719,10 +755,53 @@ px-15 {
 	display: block;
 }
 
+.section-contact__input, .section-contact__textarea {
+	padding: 40px 30px;
+	background: transparent;
+	border-color: #282828;
+	border-radius: 0;
+	color: #fff;
+	margin-bottom: 0;
+}
 
+.section-contact__textarea {
+	resize: none;
+}
 
+.section-contact__input:focus, .section-contact__textarea:focus {
+	background: transparent;
+}
 
+input,
+textarea,
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    font-size: 16px;
+}
 
+.section-contact label {
+	font-size: 14px;
+	color: #FFC500;
+}
+
+.footer-main a{
+	color: #A1A0A0;
+}
+
+.footer-main a:hover{
+	color: #FFC500;
+}
+
+.footer-main__input {
+	width: 70%;
+	border-color: #404040;
+	background-color: transparent;
+	border-radius: 0;
+}
+
+.footer-main__input:focus {
+	background-color: transparent;
+}
 
 @media (max-width: 575px) /*xs*/ {
 	.header-main__navbar-nav li {
